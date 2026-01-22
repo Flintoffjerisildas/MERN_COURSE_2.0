@@ -10,7 +10,7 @@ app.use(express.json());
 connectDB();
 
 app.get("/", (req, res) => {
-    res.json("Hello World!");
+    res.json("Welome to Flint()'s To do WEB Applicaton");
 });
 
 app.use("/api/auth", authRoutes);
