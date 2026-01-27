@@ -231,7 +231,7 @@ const TaskList = () => {
               {/* Status Checkbox */}
               <button
                 onClick={() => handleStatusUpdate(task, task.status === 'completed' ? 'pending' : 'completed')}
-                className="mt-1 md:mt-0 flex-shrink-0"
+                className="mt-1 md:mt-0 shrink-0"
                 title="Toggle Completion"
               >
                 {task.status === 'completed' ?
@@ -241,7 +241,7 @@ const TaskList = () => {
               </button>
 
               {/* Content */}
-              <div className="flex-grow min-w-0">
+              <div className="grow min-w-0">
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className={`text-lg font-medium truncate ${task.status === 'completed' ? 'text-gray-500 line-through' : 'text-gray-900 dark:text-white'}`}>
                     {task.title}
