@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 const NavbarLanding = () => {
@@ -7,8 +6,7 @@ const NavbarLanding = () => {
         <div className="">BRAND</div>
         <div className="flex flex-row gap-8">
             <Link to="/about">About</Link>
-            <Link to="/login">Login</Link>
-            <Link to="/register">Register</Link>
+            <Link to="/register">Login</Link>
         </div>
     </div>
   )

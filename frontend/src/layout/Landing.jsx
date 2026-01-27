@@ -1,5 +1,6 @@
 import React from 'react';
 import NavbarLanding from './NavbarLanding';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
   return (
@@ -13,7 +14,7 @@ const Landing = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corrupti voluptate it amet consectetur adipisicing elit. Ad corrupti volupsed non debitis excepturi architecto...
                     </p>
                     <button className="bg-gray-900 hover:bg-gray-700 transition text-white px-6 py-3 rounded-sm font-extralight">
-                        GET STARTED
+                        <Link to="/register">GET STARTED</Link>
                     </button>
                 </div>
                 <div className="md:w-1/2 w-full flex justify-center items-center p-6">
