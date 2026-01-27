@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api/auth",
+  baseURL: "https://to-do-app-jeym.onrender.com/api/auth",
   headers: {
     "Content-Type": "application/json",
   },
