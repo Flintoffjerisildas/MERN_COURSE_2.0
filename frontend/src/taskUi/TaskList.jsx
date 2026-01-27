@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-import { getTasks, deleteTask, updateTask, createTask } from "../src/api/task";
+import { getTasks, deleteTask, updateTask, createTask } from "../api/task";
 import {
   Trash2, Edit3, CheckCircle, Clock, AlertCircle, XCircle, Plus,
   Calendar, Flag, Filter, ArrowUpDown, Search, Inbox

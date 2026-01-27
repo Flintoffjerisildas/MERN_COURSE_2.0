@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useTheme } from '../src/context/ThemeContext';
+import { useTheme } from '../context/ThemeContext';
 import { Moon, Sun, LogOut, User, CheckSquare } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
